@@ -5,7 +5,7 @@
     <div class="py-15 border-b border-gray-200">
         <h1 class="text-6xl">
             Blog Posts
-            Blog Posts
+            
         </h1>
     </div>
 </div>
