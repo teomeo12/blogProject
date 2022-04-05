@@ -1,13 +1,15 @@
+const forms = require("@tailwindcss/forms");
+
 module.exports = {
-  purge: [
-    './resources/views/**/*.blade.php',
-    './resources/css/**/*.css',
-  ],
-  theme: {
-    extend: {}
-  },
-  variants: {},
-  plugins: [
-    require('@tailwindcss/ui'),
-  ]
-}
+    content: [
+        "./resources/views/**/*.blade.php",
+        "./resources/**/*.js",
+        "./resources/**/*.css",
+        "./resources/**/*.scss",
+    ],
+    theme: {
+        extend: {},
+    },
+    variants: {},
+    plugins: [forms],
+};

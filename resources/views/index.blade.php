@@ -18,7 +18,7 @@
 
     <div class="sm:grid grid-cols-2 gap-20 w-4/5 mx-auto py-15 border-b border-gray-200">
         <div>
-            <img src="https://cdn.pixabay.com/photo/2014/05/03/01/03/laptop-336704_960_720.jpg" width="700" alt="">
+            <img src="./images/cryptocurrency.jpg" width="700" alt="">
         </div>
 
         <div class="m-auto sm:m-auto text-left w-4/5 block">

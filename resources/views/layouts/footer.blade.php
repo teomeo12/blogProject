@@ -6,22 +6,22 @@
             </h3>
 
             <ul class="py-4 sm:text-s pt-4 text-gray-400">
-                <li class="pb-1">
-                    <a href="/">
+                <li class="pb-1 pages">
+                    <a class = "hover:m-1 duration-100  " href="/">
                         Home
                     </a>
                 </li>
-                <li class="pb-1">
+                <li class="pb-1 pages">
                     <a href="/blog">
                         Blog
                     </a>
                 </li>
-                <li class="pb-1">
+                <li class="pb-1 pages">
                     <a href="/login">
                         Login
                     </a>
                 </li>
-                <li class="pb-1">
+                <li class="pb-1 pages">
                     <a href="/register">
                         Register
                     </a>
@@ -35,22 +35,22 @@
             </h3>
 
             <ul class="py-4 sm:text-s pt-4 text-gray-400">
-                <li class="pb-1">
+                <li class="pb-1 pages">
                     <a href="/">
                         What we do
                     </a>
                 </li>
-                <li class="pb-1">
+                <li class="pb-1 pages">
                     <a href="/">
                         Address
                     </a>
                 </li>
-                <li class="pb-1">
+                <li class="pb-1 pages">
                     <a href="/">
                         Phone
                     </a>
                 </li>
-                <li class="pb-1">
+                <li class="pb-1 pages">
                     <a href="/">
                         Contact
                     </a>
@@ -64,22 +64,22 @@
             </h3>
 
             <ul class="py-4 sm:text-s pt-4 text-gray-400">
-                <li class="pb-1">
-                    <a href="/">
-                        Why we love tech
+                <li class="pb-1 pages  ">
+                    <a class ="a"href="/">
+                        Why cripto
                     </a>
                 </li>
-                <li class="pb-1">
+                <li class=" pages">
                     <a href="/">
                         Why we love design
                     </a>
                 </li>
-                <li class="pb-1">
+                <li class=" pages">
                     <a href="/">
                         Why to use Laravel
                     </a>
                 </li>
-                <li class="pb-1">
+                <li class=" pages">
                     <a href="/">
                         Why PHP is the best
                     </a>
@@ -88,6 +88,6 @@
         </div>
     </div>
     <p class="w-25 w-4/5 pb-3 m-auto text-xs text-gray-100 pt-6">
-        Copyright 2017-2021 Code With Dary. All Rights Reserved
+        Copyright 2021 DKIT. All Rights Reserved
     </p>
 </footer>
