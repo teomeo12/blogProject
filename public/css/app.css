@@ -1154,16 +1154,16 @@ select {
   padding-bottom: 3.5rem;
 }
 
+.pt-20 {
+  padding-top: 5rem;
+}
+
 .pb-9 {
   padding-bottom: 2.25rem;
 }
 
 .pb-5 {
   padding-bottom: 1.25rem;
-}
-
-.pt-20 {
-  padding-top: 5rem;
 }
 
 .pl-2 {
@@ -1403,7 +1403,7 @@ select {
 
 .background-image 
 {
-    background-image: url('https://cdn.pixabay.com/photo/2017/07/31/23/45/pen-2562078_960_720.jpg');
+    background-image: url('https://cdn.pixabay.com/photo/2018/05/13/12/38/bitcoin-3396302_960_720.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -1450,10 +1450,6 @@ select {
 .hover\:underline:hover {
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
-}
-
-.body{
-  background-color: #f5f5f5;
 }
 
 @media (min-width: 640px) {
