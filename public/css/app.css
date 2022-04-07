@@ -846,6 +846,14 @@ select {
   height: 100vh;
 }
 
+.h-5 {
+  height: 1.25rem;
+}
+
+.h-7 {
+  height: 1.75rem;
+}
+
 .w-4\/5 {
   width: 80%;
 }
@@ -864,6 +872,14 @@ select {
 
 .w-2\/6 {
   width: 33.333333%;
+}
+
+.w-5 {
+  width: 1.25rem;
+}
+
+.w-7 {
+  width: 1.75rem;
 }
 
 .cursor-pointer {
