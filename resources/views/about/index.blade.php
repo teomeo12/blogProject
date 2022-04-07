@@ -1,4 +1,8 @@
-       <h1>About</h1>
+@extends('layouts.app')
+
+@section('content')
+      
+      <h1>About</h1>
 
 
 
@@ -38,3 +42,4 @@
         </a> <!-- /image-cta -->
     </div> <!-- /unit -->
 </div>
+@endsection
