@@ -22,17 +22,16 @@
                 <div>
                     <a href="{{ url('/') }}" class=" w-5 h-5 text-lg font-semibold text-gray-100 no-underline">
                         {{-- {{ config('app.name', 'Laravel') }} --}}
-                       <div class= "w-5 h-5" >
-                        <img class="w-7 h-7 " src="{{ asset('images/logo.jpg') }}" alt="">
-                    </div>
-                        
+                       
+                        <img class="w-12 h-9 " src="{{ asset('images/logo.jpg') }}" alt="">
+                    
                         
                     </a>
                 </div>
-                <nav class="space-x-4 text-gray-300 text-sm sm:text-base">
-                    <a class="no-underline hover:underline" href="/">Home</a>
-                    <a class="no-underline hover:underline" href="/about">About</a>
-                    <a class="no-underline hover:underline" href="/blog">Blog</a>
+                <nav class="text-gray-300 text-sm sm:text-base flex gap-x-3">
+                    <a class="no-underline shadow-none   delay-150  hover:underline hover:text-slate-400 hover:shadow-gray-400   hover:delay-150 "  href="/">Home</a>
+                    <a class="no-underline shadow-none   delay-150  hover:underline hover:text-slate-400 hover:shadow-gray-400   hover:delay-150 " href="/about">About</a>
+                    <a class="no-underline shadow-none   delay-150  hover:underline hover:text-slate-400 hover:shadow-gray-400   hover:delay-150 " href="/blog">Blog</a>
                     
                     @guest
                         <a class="no-underline hover:underline" href="{{ route('login') }}">{{ __('Login') }}</a>
@@ -40,7 +39,11 @@
                             <a class="no-underline hover:underline" href="{{ route('register') }}">{{ __('Register') }}</a>
                         @endif
                     @else
-                        <span>{{ Auth::user()->name }}</span>
+
+                        <div class="flex flex-col">
+                            <div>LogIn as</div>
+                            <span class="text-yellow-500">{{ Auth::user()->name }}</span>
+                        </div>
 
                         <a href="{{ route('logout') }}"
                            class="no-underline hover:underline"
