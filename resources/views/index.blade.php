@@ -15,8 +15,135 @@
             </div>
         </div>
     </div>
+    <div class="px-72">
+        <h2 class="text-3xl font-extrabold text-gray-600">
+            Real Time Coin Prices Of The Most Popular Cryptocurrencies
+        </h2>
+    </div>
+    <?php
+global  $thisCoin_price;
+global  $thisCoin_Price;
+// api key
+$myAPIKey = 'f8f63e10-a149-462d-9440-1d72461abb3e';
+//array of coin requests
+$myCoins_array = array ('BTC', 'ETH', 'DOGE', 'SHIB', 'USDT', 'BNB', 'USDC', 'XRP', 'SOL', 'ADA');
+// turn array into list
+$myCoins_list = '';
+foreach ($myCoins_array as $item) {
+    $myCoins_list .= $item . ',';
+}
+// remove last comma
+$myCoins_list = substr_replace($myCoins_list, "", -1);
 
-    <div class="sm:grid grid-cols-2 gap-20 w-4/5 mx-auto py-15 border-b border-gray-200 pt-20">
+//setup query
+$url = 'https://pro-api.coinmarketcap.com/v1/cryptocurrency/quotes/latest';
+$parameters = array('symbol' => $myCoins_list);
+$headers = array(
+    'Accepts: application/json',
+     'X-CMC_PRO_API_KEY: ' . $myAPIKey
+    );
+
+// query string encode the parameters
+$qs = http_build_query($parameters);
+// create the request url
+$request = "{$url}?{$qs}";
+// get cURL resource / setup options
+$curl = curl_init();
+curl_setopt_array($curl, array(
+    CURLOPT_URL => $request,
+    CURLOPT_HTTPHEADER => $headers,
+    CURLOPT_RETURNTRANSFER => 1
+));
+// send the request, save the response
+$response = curl_exec($curl);
+$apiData = json_decode($response, true);
+//close request
+curl_close($curl);
+?>
+<style>
+    marquee {
+        padding-top: 2%; 
+        padding-bottom: 2%;
+    }
+    .coin_wrapper {
+        color: black; padding-right: 20%; 
+        border: 1px solid gray; 
+        padding-left:1%; 
+        padding-right:1%;}
+    .coin_symbol {
+        --tw-text-opacity: 1;
+        color: rgb(75 85 99 / var(--tw-text-opacity));
+        font-weight: 800;
+    }
+    .coin_price { 
+        padding-left:1%; 
+        padding-right:1%;
+    }
+    .coin_change { 
+        padding-left:1%; 
+        padding-right:1%;
+    }
+    .arrow {
+        border: solid black;
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+        padding: 3px;
+    }
+    .coin_change_green {
+        color: green; 
+    }
+    .coin_change_red {
+        color: red; 
+    }
+</style>
+
+<?php
+echo '<marquee scrollamount="12">';
+// loop through the coins
+foreach ($myCoins_array as $value)
+{
+    $thisCoin_Symbol = $value;
+    $thisCoin_price = $apiData['data'][$value]['quote']['USD']['price'];
+    $thisCoin_percent_change_1h = $apiData['data'][$value]['quote']['USD']['percent_change_1h'];
+
+    if($thisCoin_percent_change_1h >= 0)
+    {
+        $changeColorClass = 'coin_change_green';
+    }
+    else
+    {
+        $changeColorClass = 'coin_change_red';
+    }
+    echo '<span class="coin_wrapper">';
+    echo '<span class="coin_symbol">' . $thisCoin_Symbol . '</span>';
+    echo '<span class="coin_price">';
+    // get rid of decimals for anything over 1000
+    if($thisCoin_price > 1000)
+    {
+        echo '$'. number_format($thisCoin_price, 0);
+    }
+    else
+    {
+        if(strpos ($thisCoin_price, 'E-'))
+        {
+            $thisCoin_price *= 10;
+            echo '-$0.' . number_format($thisCoin_price, 10, '', '');
+        }
+        else{
+            echo '$' . $thisCoin_price;
+        }
+    }
+    echo '</span>';
+    echo '<span class="coin_change ' . $changeColorClass . '">';
+        echo number_format($thisCoin_percent_change_1h, 2) . '%';
+    echo '</span>';
+}
+echo '</marquee>';
+?>
+
+
+    <div class="sm:grid grid-cols-2 gap-20 w-4/5 mx-auto py-15 border-b border-gray-200">
+        
         <div>
             <img src="./images/cryptocurrency.jpg" width="700" alt="">
         </div>

@@ -882,6 +882,10 @@ select {
   width: 1.75rem;
 }
 
+.transform {
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
@@ -1154,6 +1158,26 @@ select {
   padding-bottom: 1.5rem;
 }
 
+.px-80 {
+  padding-left: 20rem;
+  padding-right: 20rem;
+}
+
+.px-56 {
+  padding-left: 14rem;
+  padding-right: 14rem;
+}
+
+.px-60 {
+  padding-left: 15rem;
+  padding-right: 15rem;
+}
+
+.px-72 {
+  padding-left: 18rem;
+  padding-right: 18rem;
+}
+
 .pt-10 {
   padding-top: 2.5rem;
 }
@@ -1182,6 +1206,10 @@ select {
   padding-bottom: 1.25rem;
 }
 
+.pb-10 {
+  padding-bottom: 2.5rem;
+}
+
 .pl-2 {
   padding-left: 0.5rem;
 }
@@ -1192,10 +1220,6 @@ select {
 
 .pt-8 {
   padding-top: 2rem;
-}
-
-.pb-10 {
-  padding-bottom: 2.5rem;
 }
 
 .pb-1 {
@@ -1220,6 +1244,22 @@ select {
 
 .pb-8 {
   padding-bottom: 2rem;
+}
+
+.pl-44 {
+  padding-left: 11rem;
+}
+
+.pl-48 {
+  padding-left: 12rem;
+}
+
+.pl-56 {
+  padding-left: 14rem;
+}
+
+.pt-12 {
+  padding-top: 3rem;
 }
 
 .text-left {
