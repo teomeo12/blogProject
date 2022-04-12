@@ -150,11 +150,11 @@ echo '</marquee>';
 
         <div class="m-auto sm:m-auto text-left w-4/5 block">
             <h2 class="text-3xl font-extrabold text-gray-600">
-                What is Cryptocurrency?
+                About Crypto Guru
             </h2>
             
             <p class="py-8 text-gray-500 text-s">
-                Cryptocurrency is a digital payment system that doesn't rely on banks to verify transactions. It’s a peer-to-peer system that can enable anyone anywhere to send and receive payments. Instead of being physical money carried around and exchanged in the real world, cryptocurrency payments exist purely as digital entries to an online database describing specific transactions.
+                Crypto Guru started with sole focus on educating its readers about Bitcoin and its potential impact on the traditional financial systems has grown with the cryptocurrency industry to cover various altcoins, blockchain projects, crowdsales, regulatory developments and the futuristic confluence of some of the leading technologies of time viz., blockchain, artificial intelligence, internet of things and more.
             </p>
 
             {{-- <p class="font-extrabold text-gray-600 text-s pb-9">
@@ -198,23 +198,40 @@ echo '</marquee>';
         </h2>
 
         <p class="m-auto w-4/5 text-gray-500 pb-10">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque exercitationem saepe enim veritatis, eos temporibus quaerat facere consectetur qui.
+            It is always important to be in tune with the latest news. To have the latest news means to be the first in making meaningful choices and to know everything significant before your competitors do. Our latest news on cryptocurrency is the best source to rely on while deciding on trading strategies and investment options. Read the latest news on blockchain and cryptocurrency
         </p>
     </div>
 
-    <div class="sm:grid grid-cols-2 w-4/5 m-auto">
-        <div class="flex bg-yellow-700 text-gray-100 pt-10">
+    <div class="sm:grid grid-cols-2 w-4/5 m-auto flex-row">
+        <div class="flex bg-gray-800 text-gray-100 pt-10 ">
             <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block">
-                <span class="uppercase text-xs">
-                    PHP
-                </span>
+                {{-- <span class="uppercase text-xs"> --}}
+                    <h2 class="uppercase text-xs">What Is Cryptocurrency?</h2>
+                {{-- </span> --}}
 
                 <h3 class="text-xl font-bold py-10">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas necessitatibus dolorum error culpa laboriosam. Enim voluptas earum repudiandae consequuntur ad? Expedita labore aspernatur facilis quasi ex? Nemo hic placeat et?
+                    Cryptocurrency, sometimes called crypto-currency or crypto, is any form of currency that exists digitally or virtually and uses cryptography to secure transactions. Cryptocurrencies don't have a central issuing or regulating authority, instead using a decentralized system to record transactions and issue new units.
                 </h3>
 
                 <a 
-                    href=""
+                    href="/blog/what-is-cryptocurrency"
+                    class="uppercase bg-transparent border-2 border-gray-100 text-gray-100 text-xs font-extrabold py-3 px-5 rounded-3xl">
+                    Find Out More
+                </a>
+            </div>
+        </div>
+        <div class="flex bg-gray-800 text-gray-100 pt-10 pl-3 border-l-2">
+            <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block">
+                {{-- <span class="uppercase text-xs"> --}}
+                    <h2 class="uppercase text-xs">What Is An NFT?</h2>
+                {{-- </span> --}}
+
+                <h3 class="text-xl font-bold py-10">
+                    An NFT is a digital asset that represents real-world objects like art, music, in-game items and videos. They are bought and sold online, frequently with cryptocurrency, and they are generally encoded with the same underlying software as many cryptos.
+                </h3>
+
+                <a 
+                    href="/blog/non-fungible-tokens-explained"
                     class="uppercase bg-transparent border-2 border-gray-100 text-gray-100 text-xs font-extrabold py-3 px-5 rounded-3xl">
                     Find Out More
                 </a>
