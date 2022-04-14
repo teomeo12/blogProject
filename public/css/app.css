@@ -940,6 +940,10 @@ select {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.flex-row {
+  flex-direction: row;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -1030,6 +1034,10 @@ select {
 
 .border-b-2 {
   border-bottom-width: 2px;
+}
+
+.border-l-2 {
+  border-left-width: 2px;
 }
 
 .border-gray-200 {
@@ -1270,6 +1278,10 @@ select {
 
 .pb-8 {
   padding-bottom: 2rem;
+}
+
+.pl-3 {
+  padding-left: 0.75rem;
 }
 
 .text-left {
