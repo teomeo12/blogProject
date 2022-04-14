@@ -193,7 +193,7 @@ echo '</marquee>';
             Blog
         </span> --}}
 
-        <h2 class="text-4xl font-bold py-10">
+        <h2 class="text-4xl font-bold py-10 text-gray-600">
             Recent Posts
         </h2>
 
