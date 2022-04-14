@@ -917,10 +917,6 @@ select {
           animation: bounce 1s infinite;
 }
 
-.transform {
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
 .cursor-pointer {
   cursor: pointer;
 }
@@ -1203,21 +1199,6 @@ select {
   padding-bottom: 1.5rem;
 }
 
-.px-80 {
-  padding-left: 20rem;
-  padding-right: 20rem;
-}
-
-.px-56 {
-  padding-left: 14rem;
-  padding-right: 14rem;
-}
-
-.px-60 {
-  padding-left: 15rem;
-  padding-right: 15rem;
-}
-
 .px-72 {
   padding-left: 18rem;
   padding-right: 18rem;
@@ -1289,22 +1270,6 @@ select {
 
 .pb-8 {
   padding-bottom: 2rem;
-}
-
-.pl-44 {
-  padding-left: 11rem;
-}
-
-.pl-48 {
-  padding-left: 12rem;
-}
-
-.pl-56 {
-  padding-left: 14rem;
-}
-
-.pt-12 {
-  padding-top: 3rem;
 }
 
 .text-left {
