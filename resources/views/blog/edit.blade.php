@@ -1,9 +1,9 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="w-4/5 m-auto text-left">
-    <div class="py-15">
-        <h1 class="text-6xl">
+<div class="w-4/5 m-auto text-center">
+    <div class="py-15 border-b border-gray-200">
+        <h1 class="text-4xl font-bold py-10 text-gray-600">
             Update Post
         </h1>
     </div>
@@ -21,7 +21,7 @@
     </div>
 @endif
 
-<div class="w-4/5 m-auto pt-20">
+<div class="w-4/5 m-auto pt-8">
     <form 
         action="/blog/{{ $post->slug }}"
         method="POST"
@@ -39,12 +39,13 @@
             name="description"
             placeholder="Description..."
             class="py-20 bg-transparent block border-b-2 w-full h-60 text-xl outline-none">{{ $post->description }}</textarea> 
-
+        <div class="py-8">
         <button    
             type="submit"
             class="uppercase mt-15 bg-blue-500 text-gray-100 text-lg font-extrabold py-4 px-8 rounded-3xl">
             Submit Post
         </button>
+        </div>
     </form>
 </div>
 

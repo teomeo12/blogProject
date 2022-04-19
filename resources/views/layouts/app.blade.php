@@ -29,14 +29,14 @@
                     </a>
                 </div>
                 <nav class="text-gray-300 text-sm sm:text-base flex gap-x-3">
-                    <a class="no-underline shadow-none   delay-150  hover:underline hover:text-slate-400 hover:shadow-gray-400   hover:delay-150 "  href="/">Home</a>
-                    <a class="no-underline shadow-none   delay-150  hover:underline hover:text-slate-400 hover:shadow-gray-400   hover:delay-150 " href="/about">About</a>
-                    <a class="no-underline shadow-none   delay-150  hover:underline hover:text-slate-400 hover:shadow-gray-400   hover:delay-150 " href="/blog">Blog</a>
+                    <a class="no-underline shadow-none   delay-150   hover:text-slate-400 hover:shadow-gray-400   hover:delay-150 "  href="/">Home</a>
+                    <a class="no-underline shadow-none   delay-150   hover:text-slate-400 hover:shadow-gray-400   hover:delay-150 " href="/about">About</a>
+                    <a class="no-underline shadow-none   delay-150   hover:text-slate-400 hover:shadow-gray-400   hover:delay-150 " href="/blog">Blog</a>
                     
                     @guest
-                        <a class="no-underline hover:underline" href="{{ route('login') }}">{{ __('Login') }}</a>
+                        <a class="no-underline " href="{{ route('login') }}">{{ __('Login') }}</a>
                         @if (Route::has('register'))
-                            <a class="no-underline hover:underline" href="{{ route('register') }}">{{ __('Register') }}</a>
+                            <a class="no-underline " href="{{ route('register') }}">{{ __('Register') }}</a>
                         @endif
                     @else
 
@@ -46,7 +46,7 @@
                         </div>
 
                         <a href="{{ route('logout') }}"
-                           class="no-underline hover:underline"
+                           class="no-underline"
                            onclick="event.preventDefault();
                                 document.getElementById('logout-form').submit();">{{ __('Logout') }}</a>
                         <form id="logout-form" action="{{ route('logout') }}" method="POST" class="hidden">
