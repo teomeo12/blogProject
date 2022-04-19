@@ -17,26 +17,30 @@
 </head>
 <body class="bg-gray-100 h-screen antialiased leading-none font-sans">
     <div id="app">
-        <header class="bg-gray-800 py-6">
+        <header class="bg-black py-6 headerBorder">
+            
             <div class="container mx-auto flex justify-between items-center px-6">
                 <div>
                     <a href="{{ url('/') }}" class=" w-5 h-5 text-lg font-semibold text-gray-100 no-underline">
                         {{-- {{ config('app.name', 'Laravel') }} --}}
                        
-                        <img class="w-12 h-9 " src="{{ asset('images/logo.jpg') }}" alt="">
+                        <img class="w-20 h-20 " src="{{ asset('images/logo1.png') }}" alt="">
                     
                         
                     </a>
+                 
                 </div>
-                <nav class="text-gray-300 text-sm sm:text-base flex gap-x-3">
-                    <a class="no-underline shadow-none   delay-150   hover:text-slate-400 hover:shadow-gray-400   hover:delay-150 "  href="/">Home</a>
-                    <a class="no-underline shadow-none   delay-150   hover:text-slate-400 hover:shadow-gray-400   hover:delay-150 " href="/about">About</a>
-                    <a class="no-underline shadow-none   delay-150   hover:text-slate-400 hover:shadow-gray-400   hover:delay-150 " href="/blog">Blog</a>
+                
+                <nav class="text-gray-300 text-lg sm:text-base flex gap-x-3 shadow ">
+                    
+                    <a class=" delay-150  hover:underline underline-offset-1 hover:text-white  hover:delay-150  " href="/">Home</a>
+                    <a class=" delay-150  hover:underline underline-offset-1 hover:text-white  hover:delay-150 " href="/about">About</a>
+                    <a class=" delay-150  hover:underline underline-offset-1 hover:text-white  hover:delay-150 " href="/blog">Blog</a>
                     
                     @guest
-                        <a class="no-underline " href="{{ route('login') }}">{{ __('Login') }}</a>
+                       | <a class="hover:underline underline-offset-1 hover:text-red-300 hover:delay-150 " href="{{ route('login') }}">{{ __(' Login') }}</a>
                         @if (Route::has('register'))
-                            <a class="no-underline " href="{{ route('register') }}">{{ __('Register') }}</a>
+                            <a class="hover:underline underline-offset-1 hover:text-red-300 hover:delay-150 " href="{{ route('register') }}">{{ __('Register') }}</a>
                         @endif
                     @else
 

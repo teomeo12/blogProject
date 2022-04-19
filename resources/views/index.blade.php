@@ -9,14 +9,17 @@
                 </h1>
                 <a 
                     href="/blog"
-                    class="text-center bg-gray-50 text-gray-700 py-2 px-4 font-bold text-xl uppercase">
+                    {{-- class=" rounded-3xl text-center bg-gray-50 text-gray-700 md-2 py-3 px-4 font-bold text-xl uppercase" --}}
+                    class=" border-2 border-gray-100  md-2 py-3 px-4 font-bold text-xl uppercase rounded-3xl text-gray-700 text-center bg-gradient-to-r from-gray-50 to-blue-500 hover:text-white hover:from-blue-500 hover:to-gray-50  ">
                     Read More
                 </a>
+                 
             </div>
+           
         </div>
     </div>
     <div class="px-72">
-        <h2 class="text-3xl font-extrabold text-gray-600">
+        <h2 class="text-3xl font-extrabold text-gray-600 text-center">
             Real Time Coin Prices Of The Most Popular Cryptocurrencies
         </h2>
     </div>
@@ -60,42 +63,6 @@ $apiData = json_decode($response, true);
 //close request
 curl_close($curl);
 ?>
-<style>
-    marquee {
-        padding-top: 2%; 
-        padding-bottom: 2%;
-    }
-    .coin_wrapper {
-        color: black; padding-right: 20%; 
-        border: 1px solid gray; 
-        padding-left:1%; 
-        padding-right:1%;}
-    .coin_symbol {
-        --tw-text-opacity: 1;
-        color: rgb(75 85 99 / var(--tw-text-opacity));
-        font-weight: 800;
-    }
-    .coin_price { 
-        padding-left:1%; 
-        padding-right:1%;
-    }
-    .coin_change { 
-        padding-left:1%; 
-        padding-right:1%;
-    }
-    .arrow {
-        border: solid black;
-        border-width: 0 3px 3px 0;
-        display: inline-block;
-        padding: 3px;
-    }
-    .coin_change_green {
-        color: green; 
-    }
-    .coin_change_red {
-        color: red; 
-    }
-</style>
 
 <?php
 echo '<marquee scrollamount="12">';
@@ -144,8 +111,8 @@ echo '</marquee>';
 
     <div class="sm:grid grid-cols-2 gap-20 w-4/5 mx-auto py-15 border-b border-gray-200">
         
-        <div>
-            <img src="./images/cryptocurrency.jpg" width="700" alt="">
+        <div  >
+            <img class="rounded-md" src="./images/cryptocurrency.jpg" width="700" alt="">
         </div>
 
         <div class="m-auto sm:m-auto text-left w-4/5 block">
@@ -193,7 +160,7 @@ echo '</marquee>';
             Blog
         </span> --}}
 
-        <h2 class="text-4xl font-bold py-10 text-gray-600">
+        <h2 class="text-4xl font-bold py-10 text-green-600">
             Recent Posts
         </h2>
 
@@ -201,9 +168,9 @@ echo '</marquee>';
             It is always important to be in tune with the latest news. To have the latest news means to be the first in making meaningful choices and to know everything significant before your competitors do. Our latest news on cryptocurrency is the best source to rely on while deciding on trading strategies and investment options. Read the latest news on blockchain and cryptocurrency
         </p>
     </div>
-
+ 
     <div class="sm:grid grid-cols-2 w-4/5 m-auto flex-row">
-        <div class="flex bg-gray-800 text-gray-100 pt-10 ">
+        <div class="flex bg-gray-800 text-gray-100 pt-10 rounded-md mx-5 ">
             <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block">
                 {{-- <span class="uppercase text-xs"> --}}
                     <h2 class="uppercase text-xs">What Is Cryptocurrency?</h2>
@@ -215,12 +182,12 @@ echo '</marquee>';
 
                 <a 
                     href="/blog/what-is-cryptocurrency"
-                    class="uppercase bg-transparent border-2 border-gray-100 text-gray-100 text-xs font-extrabold py-3 px-5 rounded-3xl">
-                    Find Out More
+                    class=" delay-150 uppercase bg-transparent border-2 border-gray-100 text-stone-50 text-xs font-extrabold py-3 px-5 rounded-3xl hover:delay-150  hover:bg-stone-600 hover:text-lime-500 hover:border-lime-500 " >
+                     Find Out More
                 </a>
             </div>
         </div>
-        <div class="flex bg-gray-800 text-gray-100 pt-10 pl-3 border-l-2">
+        <div class="flex bg-gray-800 text-gray-100 pt-10 pl-3   rounded-md">
             <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block">
                 {{-- <span class="uppercase text-xs"> --}}
                     <h2 class="uppercase text-xs">What Is An NFT?</h2>
@@ -232,7 +199,7 @@ echo '</marquee>';
 
                 <a 
                     href="/blog/non-fungible-tokens-explained"
-                    class="uppercase bg-transparent border-2 border-gray-100 text-gray-100 text-xs font-extrabold py-3 px-5 rounded-3xl">
+                    class=" delay-150 uppercase bg-transparent border-2 border-gray-100 text-stone-50 text-xs font-extrabold py-3 px-5 rounded-3xl hover:delay-150  hover:bg-stone-600 hover:text-lime-500 hover:border-lime-500 ">
                     Find Out More
                 </a>
             </div>

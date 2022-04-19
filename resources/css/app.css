@@ -27,3 +27,44 @@
 .atag:hover{
     margin-right: 3px;
 }
+.shadow{
+    /* color: red; */
+  text-shadow: 2px 2px 4px #000000;
+}
+.headerBorder{
+    border-bottom: 1px solid white;
+}
+ marquee {
+        padding-top: 2%; 
+        padding-bottom: 2%;
+    }
+    .coin_wrapper {
+        color: black; padding-right: 20%; 
+        border: 1px solid gray; 
+        padding-left:1%; 
+        padding-right:1%;}
+    .coin_symbol {
+        --tw-text-opacity: 1;
+        color: rgb(75 85 99 / var(--tw-text-opacity));
+        font-weight: 800;
+    }
+    .coin_price { 
+        padding-left:1%; 
+        padding-right:1%;
+    }
+    .coin_change { 
+        padding-left:1%; 
+        padding-right:1%;
+    }
+    .arrow {
+        border: solid black;
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+        padding: 3px;
+    }
+    .coin_change_green {
+        color: green; 
+    }
+    .coin_change_red {
+        color: red; 
+    }
