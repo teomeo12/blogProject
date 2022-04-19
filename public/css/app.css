@@ -1073,14 +1073,11 @@ select {
   background-color: rgb(239 68 68 / var(--tw-bg-opacity));
 }
 
-<<<<<<< HEAD
-=======
 .bg-gray-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
 }
 
->>>>>>> 79e378b1e300a861d8ce6bb20d13cc8682ecbf96
 .p-3 {
   padding: 0.75rem;
 }
@@ -1205,17 +1202,12 @@ select {
   padding-left: 0.75rem;
 }
 
-<<<<<<< HEAD
-.pt-20 {
-  padding-top: 5rem;
-=======
 .pt-8 {
   padding-top: 2rem;
 }
 
 .pt-6 {
   padding-top: 1.5rem;
->>>>>>> 79e378b1e300a861d8ce6bb20d13cc8682ecbf96
 }
 
 .pl-2 {
@@ -1501,14 +1493,6 @@ select {
   color: rgb(29 78 216 / var(--tw-text-opacity));
 }
 
-<<<<<<< HEAD
-.hover\:text-gray-900:hover {
-  --tw-text-opacity: 1;
-  color: rgb(17 24 39 / var(--tw-text-opacity));
-}
-
-=======
->>>>>>> 79e378b1e300a861d8ce6bb20d13cc8682ecbf96
 .hover\:text-slate-400:hover {
   --tw-text-opacity: 1;
   color: rgb(148 163 184 / var(--tw-text-opacity));
