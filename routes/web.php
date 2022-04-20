@@ -6,6 +6,7 @@ use App\Http\Controllers\PagesController;
 use App\Http\Controllers\PostsController;
 use App\Http\Controllers\AboutController;
 use \App\Http\Controllers\HomeController;
+use \App\Http\Controllers\ContactUsController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,7 +19,8 @@ use \App\Http\Controllers\HomeController;
 |
 */
 
-Route::get('/', [PagesController::class, 'index']);
+// Route::get('/', [PagesController::class, 'index']);
+Route::get('/', [PagesController::class, 'index'])->name('index');
 
 Route::resource('/blog', PostsController::class);
 Route::resource('/about', AboutController::class);
@@ -28,3 +30,7 @@ Auth::routes();
 Route::get('/home', [HomeController::class, 'index'])->name('home');
 
 Route::get('/about', [AboutController::class, 'index'])->name('about');
+
+Route::get('/contactUs', [ContactUsController::class, 'contactUs'])->name('contactUs'); 
+
+Route::post('/contactUs', [ContactUsController::class, 'storeContactUs'])->name('contactUsStore'); 

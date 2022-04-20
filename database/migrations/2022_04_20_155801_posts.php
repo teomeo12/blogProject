@@ -17,6 +17,7 @@ class Posts extends Migration
             $table->increments('id');
             $table->string('slug');
             $table->string('title');
+            $table->longText('shortdesc');
             $table->longText('description');
             $table->string('image_path');
             $table->timestamps();
@@ -32,6 +33,6 @@ class Posts extends Migration
      */
     public function down()
     {
-        //
+         Schema::dropIfExists('posts');
     }
 }

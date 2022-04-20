@@ -31,8 +31,13 @@
         <input 
             type="text"
             name="title"
-            placeholder="Title..."
+            placeholder="Please enter a Title..."
             class="bg-transparent block border-b-2 w-full h-20 text-6xl outline-none">
+
+            <textarea 
+            name="shortdesc"
+            placeholder="Short Description..."
+            class="py-8 bg-transparent block border-b-2 w-full h-30 text-xl outline-none"></textarea>
 
         <textarea 
             name="description"

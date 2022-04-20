@@ -10,7 +10,7 @@
                 <a 
                     href="/blog"
                     {{-- class=" rounded-3xl text-center bg-gray-50 text-gray-700 md-2 py-3 px-4 font-bold text-xl uppercase" --}}
-                    class=" border-2 border-gray-100  md-2 py-3 px-4 font-bold text-xl uppercase rounded-3xl text-gray-700 text-center bg-gradient-to-r from-gray-50 to-blue-500 hover:text-white hover:from-blue-500 hover:to-gray-50  ">
+                    class=" border-1  border-gray-100  md-2 py-3 px-4 font-bold text-xl uppercase rounded-3xl text-gray-700 text-center bg-gradient-to-r from-gray-50 to-blue-500 hover:text-white hover:from-blue-500 hover:to-gray-50 hover:drop-shadow-[0_5px_5px_rgba(192,192,192)]  ">
                     Read More
                 </a>
                  
@@ -18,8 +18,8 @@
            
         </div>
     </div>
-    <div class="px-72">
-        <h2 class="text-3xl font-extrabold text-gray-600 text-center">
+    <div class="items-center  h-16 shadow-[0_35px_60px_-15px_rgba(0,0,0.5,100)] px-72 border-2 mt-10 ">
+        <h2 class="text-3xl font-extrabold text-blue-600 my-2 text-center">
             Real Time Coin Prices Of The Most Popular Cryptocurrencies
         </h2>
     </div>
@@ -112,7 +112,7 @@ echo '</marquee>';
     <div class="sm:grid grid-cols-2 gap-20 w-4/5 mx-auto py-15 border-b border-gray-200">
         
         <div  >
-            <img class="rounded-md" src="./images/cryptocurrency.jpg" width="700" alt="">
+            <img class="rounded-md hover:drop-shadow-[0_5px_5px_rgba(0,0,0,20)]	" src="./images/cryptocurrency.jpg" width="700" alt="">
         </div>
 
         <div class="m-auto sm:m-auto text-left w-4/5 block">
@@ -130,7 +130,7 @@ echo '</marquee>';
 
             <a 
                 href="/blog"
-                class="uppercase bg-blue-500 text-gray-100 text-s font-extrabold py-3 px-8 rounded-3xl">
+                class="uppercase bg-blue-500 text-gray-100 text-s font-extrabold py-3 px-8 rounded-3xl hover:text-red-300 hover:drop-shadow-[0_5px_5px_rgba(0,0,0,20)]">
                 Find Out More
             </a>
         </div>
@@ -170,8 +170,8 @@ echo '</marquee>';
     </div>
  
     <div class="sm:grid grid-cols-2 w-4/5 m-auto flex-row">
-        <div class="flex bg-gray-800 text-gray-100 pt-10 rounded-md mx-5 ">
-            <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block">
+        <div class="flex bg-gray-800 text-gray-100 pt-10 rounded-md mx-5 hover:drop-shadow-[0_5px_5px_rgba(0,0,0,20)] ">
+            <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block ">
                 {{-- <span class="uppercase text-xs"> --}}
                     <h2 class="uppercase text-xs">What Is Cryptocurrency?</h2>
                 {{-- </span> --}}
@@ -182,16 +182,22 @@ echo '</marquee>';
 
                 <a 
                     href="/blog/what-is-cryptocurrency"
-                    class=" delay-150 uppercase bg-transparent border-2 border-gray-100 text-stone-50 text-xs font-extrabold py-3 px-5 rounded-3xl hover:delay-150  hover:bg-stone-600 hover:text-lime-500 hover:border-lime-500 " >
+                    class=" delay-150 uppercase bg-transparent border-2 border-gray-100 text-stone-50 text-xs font-extrabold py-3 px-5 rounded-3xl hover:delay-150  hover:bg-stone-600 hover:text-lime-500 hover:border-lime-500 hover:drop-shadow-[0_5px_5px_rgba(192,192,192)] " >
                      Find Out More
                 </a>
             </div>
         </div>
-        <div class="flex bg-gray-800 text-gray-100 pt-10 pl-3   rounded-md">
+        <div class="flex bg-gray-800 text-gray-100 pt-10 pl-3   rounded-md hover:drop-shadow-[0_5px_5px_rgba(0,0,0,20)]">
             <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block">
                 {{-- <span class="uppercase text-xs"> --}}
                     <h2 class="uppercase text-xs">What Is An NFT?</h2>
                 {{-- </span> --}}
+                 <div  >
+           <div class="w4/5 my-2">
+                <img class="rounded-md hover:drop-shadow-[0_5px_5px_rgba(192,192,192)] w-20 h-20	" src="./images/nft.jpg"  alt="">
+           </div>
+                   
+        </div>
 
                 <h3 class="text-xl font-bold py-10">
                     An NFT is a digital asset that represents real-world objects like art, music, in-game items and videos. They are bought and sold online, frequently with cryptocurrency, and they are generally encoded with the same underlying software as many cryptos.
@@ -199,7 +205,7 @@ echo '</marquee>';
 
                 <a 
                     href="/blog/non-fungible-tokens-explained"
-                    class=" delay-150 uppercase bg-transparent border-2 border-gray-100 text-stone-50 text-xs font-extrabold py-3 px-5 rounded-3xl hover:delay-150  hover:bg-stone-600 hover:text-lime-500 hover:border-lime-500 ">
+                    class=" delay-150 uppercase bg-transparent border-2 border-gray-100 text-stone-50 text-xs font-extrabold py-3 px-5 rounded-3xl hover:delay-150  hover:bg-stone-600 hover:text-lime-500 hover:border-lime-500 hover:drop-shadow-[0_5px_5px_rgba(192,192,192)] ">
                     Find Out More
                 </a>
             </div>

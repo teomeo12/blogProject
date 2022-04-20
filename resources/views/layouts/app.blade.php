@@ -36,9 +36,10 @@
                     <a class=" delay-150  hover:underline underline-offset-1 hover:text-white  hover:delay-150  " href="/">Home</a>
                     <a class=" delay-150  hover:underline underline-offset-1 hover:text-white  hover:delay-150 " href="/about">About</a>
                     <a class=" delay-150  hover:underline underline-offset-1 hover:text-white  hover:delay-150 " href="/blog">Blog</a>
-                    
+                    |<a class=" delay-150 font-bold text-green-200 hover:underline underline-offset-1 hover:text-sky-400 hover:delay-150 " href="/contactUs">Contact Us</a>
+                    <a class=" delay-150 font-bold text-green-200 hover:underline underline-offset-1   hover:text-sky-400 " href="/blog">Buy Crypto</a>
                     @guest
-                       | <a class="hover:underline underline-offset-1 hover:text-red-300 hover:delay-150 " href="{{ route('login') }}">{{ __(' Login') }}</a>
+                       | <a class="hover:underline underline-offset-1 hover:text-red-300 hover:delay-150 " href="{{ route('login') }}">{{ __(' Sign in') }}</a>
                         @if (Route::has('register'))
                             <a class="hover:underline underline-offset-1 hover:text-red-300 hover:delay-150 " href="{{ route('register') }}">{{ __('Register') }}</a>
                         @endif

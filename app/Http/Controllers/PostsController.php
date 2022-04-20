@@ -44,16 +44,22 @@ class PostsController extends Controller
     {
         $request->validate([
             'title' => 'required',
+            'shortdesc' => 'required',
             'description' => 'required',
             'image' => 'required|mimes:jpg,png,jpeg|max:5048'
         ]);
 
-        $newImageName = uniqid() . '-' . $request->title . '.' . $request->image->extension();
+        // $newImageName = uniqid() . '-' . $request->title . '.' . $request->image->extension();
+
+        // $request->image->move(public_path('images'), $newImageName);
+
+          $newImageName = uniqid() . '-' . SlugService::createSlug(Post::class, 'slug', $request->title) . '.' . $request->image->extension();
 
         $request->image->move(public_path('images'), $newImageName);
 
         Post::create([
             'title' => $request->input('title'),
+            'shortdesc' => $request->input('shortdesc'),
             'description' => $request->input('description'),
             'slug' => SlugService::createSlug(Post::class, 'slug', $request->title),
             'image_path' => $newImageName,
@@ -105,6 +111,7 @@ class PostsController extends Controller
         Post::where('slug', $slug)
             ->update([
                 'title' => $request->input('title'),
+                'shortdesc' => $request->input('shortdesc'),
                 'description' => $request->input('description'),
                 'slug' => SlugService::createSlug(Post::class, 'slug', $request->title),
                 'user_id' => auth()->user()->id
@@ -129,4 +136,3 @@ class PostsController extends Controller
             ->with('message', 'Your post has been deleted!');
     }
 }
-

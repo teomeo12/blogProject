@@ -16,7 +16,12 @@
                         Blog
                     </a>
                 </li>
-                <li class="pb-1 pages">
+                 <li class="pb-1 pages">
+                    <a href="/about">
+                        About
+                    </a>
+                </li>
+                 <li class="pb-1 pages">
                     <a href="/login">
                         Login
                     </a>
@@ -24,11 +29,6 @@
                 <li class="pb-1 pages">
                     <a href="/register">
                         Register
-                    </a>
-                </li>
-                 <li class="pb-1 pages">
-                    <a href="/about">
-                        About
                     </a>
                 </li>
             </ul>
@@ -45,19 +45,10 @@
                         What we do
                     </a>
                 </li>
+            
                 <li class="pb-1 pages">
-                    <a href="/">
-                        Address
-                    </a>
-                </li>
-                <li class="pb-1 pages">
-                    <a href="/">
-                        Phone
-                    </a>
-                </li>
-                <li class="pb-1 pages">
-                    <a href="/">
-                        Contact
+                    <a href="/contactUs">
+                        Contact Us
                     </a>
                 </li>
             </ul>
