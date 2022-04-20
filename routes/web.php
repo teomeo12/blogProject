@@ -7,6 +7,7 @@ use App\Http\Controllers\PostsController;
 use App\Http\Controllers\AboutController;
 use \App\Http\Controllers\HomeController;
 use \App\Http\Controllers\ContactUsController;
+use \App\Http\Controllers\BuyCryptoController;
 
 /*
 |--------------------------------------------------------------------------
@@ -30,6 +31,8 @@ Auth::routes();
 Route::get('/home', [HomeController::class, 'index'])->name('home');
 
 Route::get('/about', [AboutController::class, 'index'])->name('about');
+
+Route::get('/buycypto', [BuyCryptoController::class, 'index'])->name('buycypto');
 
 Route::get('/contactUs', [ContactUsController::class, 'contactUs'])->name('contactUs'); 
 

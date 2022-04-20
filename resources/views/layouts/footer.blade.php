@@ -1,7 +1,7 @@
 <footer class="bg-black py-20 mt-20">
     <div class="sm:grid grid-cols-3 w-4/5 pb-10 m-auto border-b-2 border-gray-700">
         <div>
-            <h3 class="text-l sm:font-bold text-gray-100">
+            <h3 class="text-l underline sm:font-bold  text-gray-100">
                 Pages
             </h3>
 
@@ -21,6 +21,11 @@
                         About
                     </a>
                 </li>
+                <li class="pb-1 pages">
+                    <a href="/buycypto">
+                        Buy crypto Currency
+                    </a>
+                </li>
                  <li class="pb-1 pages">
                     <a href="/login">
                         Login
@@ -31,12 +36,13 @@
                         Register
                     </a>
                 </li>
+                
             </ul>
         </div>
 
         <div>
-            <h3 class="text-l sm:font-bold text-gray-100">
-                Find Us
+            <h3 class="text-l underline sm:font-bold text-gray-100">
+                Follow Us
             </h3>
 
             <ul class="py-4 sm:text-s pt-4 text-gray-400">
@@ -55,7 +61,7 @@
         </div>
 
         <div>
-            <h3 class="text-l sm:font-bold text-gray-100">
+            <h3 class="text-l underline sm:font-bold text-gray-100">
                 Latest news
             </h3>
 

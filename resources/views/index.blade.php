@@ -18,7 +18,7 @@
            
         </div>
     </div>
-    <div class="items-center  h-16 shadow-[0_35px_60px_-15px_rgba(0,0,0.5,100)] px-72 border-2 mt-10 ">
+    <div class="flex items-center justify-center   shadow-[0_35px_60px_-15px_rgba(0,0,0.5,100)] px-72 mt-10 ">
         <h2 class="text-3xl font-extrabold text-blue-600 my-2 text-center">
             Real Time Coin Prices Of The Most Popular Cryptocurrencies
         </h2>
@@ -109,7 +109,7 @@ echo '</marquee>';
 ?>
 
 
-    <div class="sm:grid grid-cols-2 gap-20 w-4/5 mx-auto py-15 border-b border-gray-200">
+    <div class="sm:grid grid-cols-2 gap-20 w-4/5 mx-auto py-5 border-b  border-t border-gray-300">
         
         <div  >
             <img class="rounded-md hover:drop-shadow-[0_5px_5px_rgba(0,0,0,20)]	" src="./images/cryptocurrency.jpg" width="700" alt="">
@@ -124,36 +124,17 @@ echo '</marquee>';
                 Crypto Guru started with sole focus on educating its readers about Bitcoin and its potential impact on the traditional financial systems has grown with the cryptocurrency industry to cover various altcoins, blockchain projects, crowdsales, regulatory developments and the futuristic confluence of some of the leading technologies of time viz., blockchain, artificial intelligence, internet of things and more.
             </p>
 
-            {{-- <p class="font-extrabold text-gray-600 text-s pb-9">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente magnam vero nostrum! Perferendis eos molestias porro vero. Vel alias.
-            </p> --}}
-
             <a 
                 href="/blog"
-                class="uppercase bg-blue-500 text-gray-100 text-s font-extrabold py-3 px-8 rounded-3xl hover:text-red-300 hover:drop-shadow-[0_5px_5px_rgba(0,0,0,20)]">
+                class="uppercase border-2 border-gray-300 drop-shadow-[0_5px_5px_rgba(0,0,0)]
+                 bg-blue-500 text-gray-100 text-s font-extrabold py-3 px-8 rounded-3xl 
+                 hover:text-red-300 hover:drop-shadow-[0_5px_5px_rgba(192,192,192)]
+                 hover:border-red-300">
                 Find Out More
             </a>
         </div>
     </div>
 
-    {{-- <div class="text-center p-15 bg-black text-white">
-        <h2 class="text-2xl pb-5 text-l"> 
-            I'm an expert in...
-        </h2>
-
-        <span class="font-extrabold block text-4xl py-1">
-            Ux Design
-        </span>
-        <span class="font-extrabold block text-4xl py-1">
-            Project Management
-        </span>
-        <span class="font-extrabold block text-4xl py-1">
-            Digital Strategy
-        </span>
-        <span class="font-extrabold block text-4xl py-1">
-            Backend Development
-        </span>
-    </div> --}}
 
     <div class="text-center py-15">
         {{-- <span class="uppercase text-s text-gray-400">
@@ -182,7 +163,7 @@ echo '</marquee>';
 
                 <a 
                     href="/blog/what-is-cryptocurrency"
-                    class=" delay-150 uppercase bg-transparent border-2 border-gray-100 text-stone-50 text-xs font-extrabold py-3 px-5 rounded-3xl hover:delay-150  hover:bg-stone-600 hover:text-lime-500 hover:border-lime-500 hover:drop-shadow-[0_5px_5px_rgba(192,192,192)] " >
+                    class=" delay-150 drop-shadow-[0_5px_5px_rgba(192,192,192) uppercase  bg-transparent border-2 border-gray-100 text-stone-50 text-xs font-extrabold py-3 px-5 rounded-3xl hover:delay-150  hover:bg-stone-600 hover:text-lime-500 hover:border-lime-500 hover:drop-shadow-[0_5px_5px_rgba(192,192,192)] " >
                      Find Out More
                 </a>
             </div>
