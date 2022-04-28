@@ -75,15 +75,15 @@
                  hover:border-sky-500">
                     Submit Post
                 </button>
-                 <a href="/blog/"
-                class="uppercase delay-150 border-2 border-gray-300 drop-shadow-[0_5px_5px_rgba(0,0,0)]
+                <a href="/blog/"
+                    class="uppercase delay-150 border-2 border-gray-300 drop-shadow-[0_5px_5px_rgba(0,0,0)]
                  bg-red-500 text-gray-100 text-s font-extrabold py-3 px-8 rounded-3xl 
                  hover:text-red-500 hover:drop-shadow-[0_5px_5px_rgba(255,0,0)]
                   hover:bg-gray-300 hover:delay-150
                  hover:border-red-500">
-                Cancel</a>
+                    Cancel</a>
             </div>
-           
+
         </form>
 
 
