@@ -39,27 +39,27 @@
                         href="/">Home</a>
                     <a class=" delay-150  hover:underline underline-offset-1 hover:text-white  hover:delay-150 "
                         href="/about">About</a>
-                    <a class=" delay-150  hover:underline underline-offset-1 hover:text-white  hover:delay-150 "
+                    <a class=" delay-150  hover:underline underline-offset-1 hover:text-white   hover:delay-150 "
                         href="/blog">Blog</a>
                     |
-                    <a class=" delay-150 font-bold text-green-200 hover:underline underline-offset-1   hover:text-sky-400 "
+                    <a class=" delay-150 font-bold text-green-200 hover:underline  underline-offset-1   hover:text-sky-400 "
                         href="/buycypto">Buy Crypto</a>
                     @guest
-                        | <a class="hover:underline underline-offset-1 hover:text-red-300 hover:delay-150 "
+                        | <a class="hover:underline underline-offset-1 hover:text-red-300  hover:delay-150 "
                             href="{{ route('login') }}">{{ __(' Sign in') }}</a>
                         @if (Route::has('register'))
-                            <a class="hover:underline underline-offset-1 hover:text-red-300 hover:delay-150 "
+                            <a class="hover:underline underline-offset-1 hover:text-red-300  hover:delay-150 "
                                 href="{{ route('register') }}">{{ __('Register') }}</a>
                         @endif
                     @else
-                    <a class=" delay-150 font-bold text-green-200 hover:underline underline-offset-1 hover:text-sky-400 hover:delay-150 "
+                    <a class=" delay-150 font-bold text-green-200 hover:underline underline-offset-1  hover:text-sky-400 hover:delay-150 "
                         href="/contactUs">Contact Us</a>
                         <div class="flex flex-col">
                             <div> | LogIn as</div>
                             <span class="text-yellow-500">&nbsp {{ Auth::user()->name }}</span>
                         </div>
 
-                        <a href="{{ route('logout') }}" class="no-underline" onclick="event.preventDefault();
+                        <a class="hover:underline underline-offset-1 hover:text-red-300  hover:delay-150 " href="{{ route('logout') }}" class="no-underline" onclick="event.preventDefault();
                                     document.getElementById('logout-form').submit();">{{ __('Logout') }}</a>
                         <form id="logout-form" action="{{ route('logout') }}" method="POST" class="hidden">
                             {{ csrf_field() }}
