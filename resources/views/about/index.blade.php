@@ -1,8 +1,9 @@
 @extends('layouts.app')
 
 @section('content')
-      
-      <h1>About</h1>
+      <div class="text-center py-15">
+      <h1 class="text-4xl font-bold py-10 text-green-600">About</h1>
+      </div>
 
 
 
