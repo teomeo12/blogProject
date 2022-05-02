@@ -9,7 +9,7 @@
     </div>
         
         <form method="POST" action="{{ route('contactUsStore') }}"
-            class="w-full bg-blue-100 shadow-[0_35px_60px_-15px_rgba(0,0,0.5,100)] rounded px-8 pt-3 pb-8 my-10 ">
+            class="w-full   bg-blue-100 shadow-[0_35px_60px_-15px_rgba(0,0,0.5,100)] rounded px-8 pt-3 pb-8 my-10 ">
             <br>
             @if (Session::has('success'))
                 <p class="w-2/6 mb-4 text-gray-50 bg-green-500 rounded-2xl py-4 text-center">

@@ -21,7 +21,7 @@
 
 
     @foreach ($posts as $post)
-        <div class="pb-10 gap-20 w-4/5 m-auto p-15 border-b border-gray-300">
+        <div class="pb-10 gap-20 w-4/5 m-auto p-15 border-b  border-t  border-gray-300">
 
             <div>
                 <h2 class="text-gray-700 font-bold text-5xl pb-4 mt-6 flex items-center justify-center">

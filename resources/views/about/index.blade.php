@@ -1,50 +1,155 @@
 @extends('layouts.app')
 
 @section('content')
-      <div class="flex items-center justify-center   shadow-[0_35px_60px_-15px_rgba(0,0,0.5,100)] px-72 mt-10 "">
-      <h1 class="text-3xl font-extrabold text-blue-600 my-2 text-center">About</h1>
-      </div>
+    <div class="w-4/5 m-auto text-center">
 
+        <div class="items-center rounded-md  shadow-[0_35px_60px_-15px_rgba(0,0,0.5,100)] px-72 border-2 my-10 ">
+            <h2 class="text-5xl font-extrabold text-sky-500 my-2 text-center">
+                About US
+            </h2>
+        </div>
 
-
-    <div class="user-content">
-        <div class="unit sm:grid grid-cols-2 gap-20 w-4/5 mx-auto py-5 border-b  border-t border-gray-300">
-    <iframe src="https://player.vimeo.com/video/389760352?autoplay=1&loop=1&autopause=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-    <div class="m-auto sm:m-auto text-left w-4/5 block">
-        <p class="py-8 text-gray-500 text-s"><span data-contrast="none">Large enterprises, privately owned companies and high net worth individuals face near- and far-term accounting issues. They turn to&nbsp;EisnerAmper&nbsp;for comprehensive </span><a title="Audit &amp; Assurance" href="/services/accounting-audit/audit_assurance/"><strong><span data-contrast="none">audit</span></strong></a><span data-contrast="none">, </span><a title="Accounting" href="/services/accounting-audit/"><strong><span data-contrast="none">accounting</span></strong></a><span data-contrast="none">, </span><a title="Advisory" href="/services/advisory/"><strong><span data-contrast="none">advisory</span></strong></a><span data-contrast="none">, </span><a title="Consulting" href="/services/advisory/ea-digital/"><strong><span data-contrast="none">consulting</span></strong></a><span data-contrast="none">, and </span><a title="Tax Services" href="/services/tax-services/"><strong><span data-contrast="none">tax services</span></strong></a><span data-contrast="none"> &ndash; as well as smart, analytical insight delivered in an approachable style. EisnerAmper is one of the largest accounting, tax and business advisory firms in the U.S., with more than 2,000 employees and over 200 partners across the country. We combine responsiveness with a long-range perspective; to help clients meet the pressing issues they face today, and position them for success tomorrow.</span><span data-ccp-props="{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:240}">&nbsp;</span><span data-ccp-props="{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:240}">&nbsp;</span></p>
     </div>
-</div>
-<p class="m-auto w-4/5 text-gray-500"><span data-contrast="none">Large enterprises, privately owned companies and high net worth individuals face near- and far-term accounting issues. They turn to&nbsp;EisnerAmper&nbsp;for comprehensive </span><a title="Audit &amp; Assurance" href="/services/accounting-audit/audit_assurance/"><strong><span data-contrast="none">audit</span></strong></a><span data-contrast="none">, </span><a title="Accounting" href="/services/accounting-audit/"><strong><span data-contrast="none">accounting</span></strong></a><span data-contrast="none">, </span><a title="Advisory" href="/services/advisory/"><strong><span data-contrast="none">advisory</span></strong></a><span data-contrast="none">, </span><a title="Consulting" href="/services/advisory/ea-digital/"><strong><span data-contrast="none">consulting</span></strong></a><span data-contrast="none">, and </span><a title="Tax Services" href="/services/tax-services/"><strong><span data-contrast="none">tax services</span></strong></a><span data-contrast="none"> &ndash; as well as smart, analytical insight delivered in an approachable style. EisnerAmper is one of the largest accounting, tax and business advisory firms in the U.S., with more than 2,000 employees and over 200 partners across the country. We combine responsiveness with a long-range perspective; to help clients meet the pressing issues they face today, and position them for success tomorrow.</span><span data-ccp-props="{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:240}">&nbsp;</span><span data-ccp-props="{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:240}">&nbsp;</span></p>
 
-<p class="m-auto w-4/5 text-gray-500 pb-6"><span data-contrast="none">Our clients are enterprises as diverse as sophisticated financial institutions and start-ups, global public firms and&nbsp;middle-market&nbsp;companies; as well as high net worth individuals, family offices, not-for-profit organizations, and entrepreneurial ventures across a variety of industries. We are also engaged by the attorneys, financial professionals, bankers and investors who serve these clients. All&nbsp;EisnerAmper&nbsp;professionals take several signature approaches:</span><span data-ccp-props="{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:240}">&nbsp;</span></p>
-<ul class="m-auto w-4/5 text-gray-500 pb-6">
-<li><span data-contrast="none">Responsive &ndash; We listen to client concerns, and craft responsive solutions, tailored to their needs.</span></li>
-<li>Accountable &ndash; We look for actionable solutions that produce tangible measurable results for our clients. We focus on the practical.</li>
-<li>Principled &ndash; We uphold the highest ethical, regulatory and legal standards of our profession.</li>
-<li>Relationship-Oriented &ndash; We seek to build long-term relationships with our clients, in order to help them grow, addressing their concerns at every step of their journey. &nbsp;</li>
-</ul>
-<p class="m-auto w-4/5 text-gray-500 pb-10"><span data-contrast="none">Most&nbsp;EisnerAmper&nbsp;clients are based in the&nbsp;U.S., or&nbsp;comprised of U.S. business interests of foreign entities. To serve&nbsp;domestically-based&nbsp;clients with interests in financial services opportunities overseas, we offer the resources&nbsp;of offices&nbsp;in the UK, Israel, India and&nbsp; </span><a title="EisnerAmper Global" href="http://eisneramperglobal.com/%22%20/t%20%22_blank" target="_blank" rel="noopener"><strong><span data-contrast="none">EisnerAmper&nbsp;Global</span></strong></a><span data-contrast="none">,&nbsp;with offices in the Cayman Islands, Singapore,&nbsp;and&nbsp;&nbsp;Ireland; as well as the services of </span><a title="Allinial Global" href="/about-us/global-reach/allinial-global/" target="_blank" rel="noopener"><strong><span data-contrast="none">Allinial&nbsp;Global</span></strong></a><span data-contrast="none">.</span><span data-ccp-props="{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:240}">&nbsp;</span></p>
-<p class="m-auto w-4/5 text-gray-500 pb-10"><span data-contrast="none">EisnerAmper&nbsp;fosters relationships: with our clients, of course, and the peer professionals who work together with us on their behalf.</span><span data-ccp-props="{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:240}">&nbsp;</span></p>
-<p class="m-auto w-4/5 text-gray-500 pb-10"><strong><span data-contrast="none"> </span></strong><span data-contrast="none">&ldquo;EisnerAmper&rdquo; is the brand name under which EisnerAmper LLP and Eisner Advisory Group LLC provide professional services.  </span>&nbsp;<span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}">&nbsp;</span></p>
-<p class="m-auto w-4/5 text-gray-500 pb-10"><span data-contrast="none">EisnerAmper LLP and Eisner Advisory Group LLC practice as an alternative practice structure in accordance with the AICPA Code of Professional Conduct</span><span data-contrast="none"> </span><span data-contrast="none">and applicable law, regulations and professional standards. EisnerAmper LLP is a licensed independent CPA firm that provides attest services to its clients, and Eisner Advisory Group LLC and its subsidiary entities provide tax and business consulting services to their clients. Eisner Advisory Group LLC and its subsidiary entities are not licensed CPA firms. The entities falling under the EisnerAmper brand are independently owned and are not liable for the services provided by any other entity providing services under the EisnerAmper brand. Our use of the terms &ldquo;our firm&rdquo; and &ldquo;we&rdquo; and &ldquo;us&rdquo; and terms of similar import, denote the alternative practice structure conducted by EisnerAmper LLP and Eisner Advisory Group</span><span data-contrast="none"> LLC. </span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}">&nbsp;</span></p>
-    </div> <!-- /user=content -->
+    <div class="   text-center">
+
+        <video class=" w-full h-96 text-center bg-black" autoplay loop muted>
+            <source src="https://downloads.coindesk.com/cd3/about-us/video_desktop.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="w-4/5 m-auto flex border-t border-b text-left my-7">
+
+        <h2 class="text-5xl font-extrabold font-serif  text-sky-500 my-7 text-left">
+            Mission
+        </h2>
+        <div class="w-2/3 ml-5 text-lg text-left mt-20 mb-5" >
+            <p>
+                We are building the most influential, trusted information platform for a global community engaged in the
+                transformation of the financial system and the emerging crypto economy. Our blog is an integrated platform
+                for
+                media, events, data & indices for the next generation of investing and the future of money.
+            </p>
+        </div>
+
+
+    </div>
+    <div class="w-4/5 m-auto my-5">
+
+        <div class="w-4/5 flex m-auto my-7 border-b">
+            <div class="my-7">
+                <img class="rounded-md drop-shadow-[0_5px_5px_rgba(0,0,0,20)]	" src="./images/about1.png" alt="">
+            </div>
+
+            <div class="w-2/3 ml-5 text-lg mt-20 ">
+                <p>
+                    Our leading journalists and cryptocurrency prices are regularly featured in top-tier media including
+                    Axios,
+                    Bloomberg, Business Insider, CBS News, CNBC, The Economist, Financial Times, Forbes, Fortune,
+                    MarketWatch,
+                    Nasdaq, The Wall Street Journal, and USA Today, Yahoo Finance!
+                </p>
+            </div>
+
+        </div>
+
+        <div class="w-4/5 flex m-auto my-7 border-b">
+
+            <div class="w-2/3 mr-5 text-lg mt-14 ">
+                <p>
+                    Our blog Indices are the bellwether for the market. They are the industry standard for
+                    institutional-grade
+                    cryptocurrency pricing with billions of dollars in monthly trading volume quoted against them. The
+                    flagship
+                    CoinDesk Bitcoin Price Index (XBX) is a spot reference rate for BTC that benchmarks the world's first
+                    publicly
+                    traded bitcoin fund and the world's first bitcoin ETF.
+                </p>
+            </div>
+            <div class="my-7">
+                <img class="rounded-md drop-shadow-[0_5px_5px_rgba(0,0,0,20)]	" src="./images/about2.png" alt="">
+            </div>
+
+        </div>
+
+        <div class="w-4/5 flex m-auto my-7">
+            <div class="my-7">
+                <img class="rounded-md drop-shadow-[0_5px_5px_rgba(0,0,0,20)]	" src="./images/about3.png" alt="">
+            </div>
+            <div class="w-2/3 ml-5 text-lg mt-14">
+                <p>
+                    Our blog hosts myriad industry events and webinars each year, including the annual Consensus summit
+                    event each
+                    May, the largest and most important forward-thinking gathering of stakeholders in the global crypto and
+                    blockchain ecosystem
+                </p>
+            </div>
+
+        </div>
 
 
 
-                <div class="hidden-charlie-up" data-set="aa-sidebar">
-                    <div class="aa-wrap">
-                        <div class="sidebar-content">
+    </div>
+    <div class="w-4/5 m-auto border-b border-t border-gray-300 flex">
 
-<div class="inner">
+        <div class="w-2/4     text-center">
+            <h2 class="text-5xl font-extrabold font-serif mt-14 text-sky-500 my-2 text-left">By the numbers</h2>
+        </div>
 
-    <div class="unit">
-        <a href="/coronavirus-knowledge-center/" class="image-cta">
-            <div class="image-cta-img" style="background-image: url('/globalassets/coronavirus/coronavirus-cta2.jpg');"></div>
+        <div class="w-2/4 flex flex-wrap mt-14">
 
-            <div class="image-cta-content m-auto w-4/5 text-gray-500 pb-4">
-                <span class="image-cta-title m-auto w-4/5 text-gray-500 pb-4">CORONAVIRUS HUB</span>
-            </div> <!-- /image-cta-content -->
-        </a> <!-- /image-cta -->
-    </div> <!-- /unit -->
-</div>
+            <div class="w-2/5 my-4 mr-2 border-b border-t border-gray-300 text-center">
+                <div class="flex">
+                    <h1 class="text-5xl font-extrabold font-serif  text-green-500  text-left">1.3</h1>
+                    <h2 class="text-lg font-extrabold font-serif  text-green-500 my-2 text-right top-3">M</h2>
+                </div>
+
+                <div class="">
+                    <p class="  font-serif  text-black font-extrabold my-2 text-left">Followers on Twitter</p>
+                </div>
+            </div>
+
+            <div class="w-2/5 my-4 mr-2  border-b border-t border-gray-300 text-center">
+                <div class="flex">
+                    <h1 class="text-5xl font-extrabold font-serif  text-green-500  text-left">13</h1>
+                    <h2 class="text-lg font-extrabold font-serif  text-green-500 my-2 text-right top-3">M</h2>
+                </div>
+
+                <div class="">
+                    <p class="  font-serif  text-black font-extrabold my-2 text-left">Average Monthly
+                        Viewers</p>
+                </div>
+            </div>
+
+            <div class="w-2/5 my-4 mr-2  border-b border-t border-gray-300 text-center">
+                <div class="flex">
+                    <h1 class="text-5xl font-extrabold font-serif  text-green-500  text-left">20</h1>
+                    <h2 class="text-lg font-extrabold font-serif  text-green-500 my-2 text-right top-3">K</h2>
+                </div>
+
+                <div class="">
+                    <p class="  font-serif  text-black font-extrabold my-2 text-left">Consensus Event Attendees</p>
+                </div>
+                <div><span class="font-serif  text-black my-2 text-left">Consensus has been
+                        recognized as the most influential event in cryptocurrency and
+                        blockchain.</span>
+                </div>
+            </div>
+
+
+            <div class="w-2/5 my-4 mr-2 border-b border-t border-gray-300 text-center">
+                <div class="flex">
+                    <h1 class="text-5xl font-extrabold font-serif  text-green-500  text-left">50</h1>
+                    <h2 class="text-lg font-extrabold font-serif  text-green-500 my-2 text-right top-3">+</h2>
+                </div>
+
+                <div class="">
+                    <p class="  font-serif  text-black font-extrabold my-2 text-left">Largest Group of Crypto
+                        Journalists In The World</p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
 @endsection

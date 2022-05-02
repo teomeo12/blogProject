@@ -9,23 +9,23 @@
             </h2>
         </div>
     </div>
-    <div class="w-4/5 m-auto text-center pl-8">
-        <table class="px-72 rounded-md">
+    <div class="w-4/5 m-auto rounded-md text-center px-8">
+        <table class=" rounded-md m-auto shadow-[0_35px_60px_-15px_rgba(0,0,0.5,100)] px-72 border-2 my-10">
             <thead class="bg-gray-50">
                 <tr>
-                    <th class="px-12 py-2 text-xs text-gray-500 w-40 text-left">Broker</th>
-                    <th class="px-6 py-2 text-xs text-gray-500 text-left">Rating</th>
-                    <th class="px-6 py-2 text-xs text-gray-500 text-left">Fees</th>
-                    <th class="px-6 py-2 text-xs text-gray-500 text-left">Account Minimum</th>
-                    <th class="px-6 py-2 text-xs text-gray-500 text-left">Promotion</th>
-                    <th class="px-6 py-2 text-xs text-gray-500 text-left">Learn More</th>
+                    <th class="px-6 py-2 text-xs bg-green-200 text-gray-500 w-40 text-left">Broker</th>
+                    <th class="px-6 py-2 text-xs bg-green-200 text-gray-500 text-left">Rating</th>
+                    <th class="px-6 py-2 text-xs bg-green-200 text-gray-500 text-left">Fees</th>
+                    <th class="px-6 py-2 text-xs bg-green-200 text-gray-500 text-left">Account Minimum</th>
+                    <th class="px-6 py-2 text-xs bg-green-200 text-gray-500 text-left">Promotion</th>
+                    <th class="px-6 py-2 text-xs bg-green-200 text-gray-500 text-left">Learn More</th>
                 </tr>
             </thead>
             <tbody class="bg-white">
                 <tr class="whitespace-nowrap py-4">
                     <td class="py-4">
                         <div class="text-sm text-gray-900">
-                            <img class="w-10 h-10 "
+                            <img class="h-8 w-40 "
                                 src="https://www.nerdwallet.com/cdn-cgi/image/quality=85/cdn/investing/logos/ftxus.png">
                         </div>
                     </td>
@@ -41,7 +41,7 @@
                         </div>
                     </td>
                     <td class="px-6 py-4">
-                        <div class="text-sm text-gray-900 text-left">
+                        <div class="text-sm text-gray-900 text-center">
                             $0
                         </div>
                     </td>
@@ -52,7 +52,7 @@
                         </div>
                     </td>
                     <td class="px-6 py-4">
-                        <div class="text-sm text-gray-900 text-left">
+                        <div class="text-sm text-gray-900 text-center">
                             <a href="https://ftx.com/"
                                 class="bg-blue-500 hover:bg-blue-700 text-white text-center py-2 px-4 rounded">
                                 Learn More
@@ -81,7 +81,7 @@
                         </div>
                     </td>
                     <td class="px-6 py-4">
-                        <div class="text-sm text-gray-900 text-left">
+                        <div class="text-sm text-gray-900 text-center">
                             $2
                         </div>
                     </td>
@@ -92,7 +92,7 @@
                         </div>
                     </td>
                     <td class="px-6 py-4">
-                        <div class="text-sm text-gray-900 text-left">
+                        <div class="text-sm text-gray-900 text-center">
                             <a href="https://www.coinbase.com/"
                                 class="bg-blue-500 hover:bg-blue-700 text-white text-center py-2 px-4 rounded">
                                 Learn More
@@ -121,7 +121,7 @@
                         </div>
                     </td>
                     <td class="px-6 py-4">
-                        <div class="text-sm text-gray-900 text-left">
+                        <div class="text-sm text-gray-900 text-center">
                             $0
                         </div>
                     </td>
@@ -132,7 +132,7 @@
                         </div>
                     </td>
                     <td class="px-6 py-4">
-                        <div class="text-sm text-gray-900 text-left">
+                        <div class="text-sm text-gray-900 text-center">
                             <a href="https://www.gemini.com/eu"
                                 class="bg-blue-500 hover:bg-blue-700 text-white text-center py-2 px-4 rounded">
                                 Learn More
@@ -161,7 +161,7 @@
                         </div>
                     </td>
                     <td class="px-6 py-4">
-                        <div class="text-sm text-gray-900 text-left">
+                        <div class="text-sm text-gray-900 text-center">
                             $10
                         </div>
                     </td>
@@ -172,7 +172,7 @@
                         </div>
                     </td>
                     <td class="px-6 py-4">
-                        <div class="text-sm text-gray-900 text-left">
+                        <div class="text-sm text-gray-900 text-center">
                             <a href="https://www.etoro.com/crypto/exchange/"
                                 class="bg-blue-500 hover:bg-blue-700 text-white text-center py-2 px-4 rounded">
                                 Learn More
@@ -189,19 +189,19 @@
                         </div>
                     </td>
                     <td class="px-6 py-4">
-                        <div class="text-sm text-gray-900">
+                        <div class="text-sm text-gray-900 text-center">
                             <p class="text-left">5.0 / 5</p>
                             <p class="text-gray-400 text-left">Best for Crypto exchanges</p>
                         </div>
                     </td>
                     <td class="px-6 py-4">
-                        <div class="text-sm text-gray-900">
+                        <div class="text-sm text-gray-900 text-center">
                             <p class="text-left">0.9%-2%</p>
                             <p class="text-gray-400 text-left">varies by type of transaction; other fees may apply</p>
                         </div>
                     </td>
                     <td class="px-6 py-4">
-                        <div class="text-sm text-gray-900 text-left">
+                        <div class="text-sm text-gray-900 text-center">
                             $0
                         </div>
                     </td>
@@ -212,7 +212,7 @@
                         </div>
                     </td>
                     <td class="px-6 py-4">
-                        <div class="text-sm text-gray-900 text-left">
+                        <div class="text-sm text-gray-900 text-center">
                             <a href="https://www.kraken.com/"
                                 class="bg-blue-500 hover:bg-blue-700 text-white text-center py-2 px-4 rounded">
                                 Learn More
